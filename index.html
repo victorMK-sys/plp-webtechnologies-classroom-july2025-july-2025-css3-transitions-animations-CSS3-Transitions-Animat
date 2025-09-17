@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Week 7</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="topic">Building interactive webages with CSS transitions and animations</h1>
+  </header>
+  <section id="part1">
+    <h2>1. CSS Transitions and Animations</h2>
+    <div class="slider-container">
+      <div class="slider">
+        <h3>HTML</h3>
+        <p>Build the back bone of web pages</p>
+      </div>
+      <div class="slider">
+        <h3>CSS</h3>
+        <p>Style web pages</p>
+      </div>
+      <div class="slider">
+        <h3>JavaScript</h3>
+        <p>Add interactivity and functionality to web pages</p>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <br>
+  <h2>2. JS Functions</h2>
+  <section id="part2">
+    <h3>Shopping Cart</h3>
+    <div class="input-field">
+      <label for="item">Item:</label>
+      <input type="text" name="item" id="item">
+      <label for="price">Price:</label>
+      <input type="number" name="price" id="price" min="0">
+      <button type="button" id="additem">Add</button>
+    </div>
+    <ul class="display-cart">
+    </ul>
+    <button type="button" id="cart-total">Get Total</button>
+    <div class="display-total">
+      <p>Total: $<span id="cost">0</span></p>
+    </div>
+  </section>
+  <section id="part3">
+    <h2>3. CSS Animations and JS Interactions</h2>
+    <div class="animate-box">
+      <h3>Animate a box with the click of a button!</h3>
+      <button type="button" id="animate-btn">Animate</button>
+      <div class="box"></div>
+    </div>
+    <h3>Click the following card to flip it!</h3>
+    <div class="flipper-container">
+      <div class="card-flipper html-card">
+        <h4>HTML</h4>
+        <p>Build the back bone of web pages</p>
+      </div>
+      <div class="card-flipper css-card">
+        <h4>CSS</h4>
+        <p>Style web pages</p>
+      </div>
+      <div class="card-flipper js-card">
+        <h4>JavaScript</h4>
+        <p>Add interactivity and functionality to web pages</p>
+      </div>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+
+</html>
