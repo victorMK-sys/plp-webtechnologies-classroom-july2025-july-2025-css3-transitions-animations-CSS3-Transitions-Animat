@@ -7,7 +7,6 @@ const animateBtn = document.querySelector('#animate-btn');
 const cardFlipper = document.querySelectorAll('.card-flipper');
 
 let total = [];
-let animation = false;
 
 // Add items dynamically to the webpage using document.createElement and setting display to visible
 function addToCart(item, price) {
@@ -69,4 +68,5 @@ animateBtn.addEventListener('click', triggerBoxAnimation);
 // Add event listeners to all the card flipper elements
 cardFlipper.forEach(flipper => flipper.addEventListener('click', () => {
   triggerCardAnimation(flipper);
+
 }));
